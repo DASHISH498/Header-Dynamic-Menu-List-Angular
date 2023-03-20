@@ -1,0 +1,33 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: red;
+  padding: 10px 15px;
+}
+.topbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.topbar .toplist-right {
+  display: flex;
+  align-items: center;
+}
+.topbar ul li {
+  color: #fff;
+  margin: 0px 10px;
+}
+.topbar ul li:last-child {
+  margin-right: 0px;
+}
+.topbar ul li a {
+  color: #fff;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
